@@ -49,7 +49,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/3963ecee8fd4314b67bc5.jpg"
+TECHNO_IMG = "https://telegra.ph/file/3be9750d90d18241d1fc7.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -150,7 +150,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                                  ]]))
 
     else:
-        update.effective_message.reply_text("Baby, I am Already ONline")
+        update.effective_message.reply_text("Baby, I am Already online")
 
 
 def send_start(bot, update):
